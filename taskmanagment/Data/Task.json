@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "completed login process",
+      "description": " take 2 days for login process",
+      "status": "Completed"
+    },
+    {
+      "id": "2",
+      "title": "completed signUp process",
+      "description": " take 5 days for login process",
+      "status": "Todo"
+    },
+    {
+      "id": "3",
+      "title": "completed product page ",
+      "description": "take 4 days to complete ",
+      "status": "pending"
+    },
+    {
+      "id": "lk14u4hm",
+      "title": "payment task",
+      "description": "take 2 days to complete ",
+      "status": "pending"
+    },
+    {
+      "id": "lk15ived",
+      "title": "sorting task ",
+      "description": "take 2 hour to complete ",
+      "status": "pending"
+    }
+  ]
+}

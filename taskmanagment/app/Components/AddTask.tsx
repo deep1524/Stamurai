@@ -11,7 +11,7 @@ const AddTask = () => {
     <div>
       <button
         onClick={() => setModelOpen(true)}
-        className="btn btn-primary w-full"
+        className="btn btn-primary w-full mb-10"
       >
         Add New Task <AiOutlinePlus size={18} />
       </button>

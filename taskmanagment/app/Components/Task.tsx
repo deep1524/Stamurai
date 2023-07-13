@@ -96,6 +96,9 @@ const Task: React.FC<TaskProps> = ({ task }) => {
             </button>
           </form>
         </dialog>
+
+
+        
         <RiDeleteBin6Fill
           onClick={() => setOpenModelDelete(true)}
           cursor="pointer"
