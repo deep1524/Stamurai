@@ -2,7 +2,14 @@
 
 **Introduction**
 ---
-Crud Opeartion with next JS and Tailwind CSS.
+This project is a simple Task App built with the new Next.js App Router.  we show you how to create CRUD operations using json-server and build a beautiful UI with Tailwind CSS.
+
+🚀 Getting Started
+Clone the repository
+Install dependencies with npm install
+Run the development server with npm run dev
+Navigate to http://localhost:3000 in your web browser
+For Server npm run server
 
 ## Demo
 
@@ -25,6 +32,7 @@ Frontend : Next JS, TypeScript, Tailwind CSS , daisyUI
   **Sample Page Images**
   ---
   
+![Screenshot (1309)](https://github.com/deep1524/Stamurai/assets/105913793/5acf26d3-c677-4696-96e5-40e43569efda)
 
   
 
