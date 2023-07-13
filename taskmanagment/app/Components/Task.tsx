@@ -7,25 +7,26 @@ import { FiEdit } from "react-icons/fi";
 import { RiDeleteBin6Fill } from "react-icons/ri";
 interface TaskProps {
   task: ITask;
+  
 }
 
-const Task: React.FC<TaskProps> = ({ task }) => {
+const Task: React.FC<TaskProps> = ({ task}) => {
   const rounter = useRouter();
 
   const [openModelEdit, setOpenModelEdit] = useState<boolean>(false);
   const [openModelDelete, setOpenModelDelete] = useState<boolean>(false);
-  const [taskTitleDdit, setTaskTitleEdit] = useState<String>(task.title);
-  const [taskDescDdit, setTaskDescEdit] = useState<String>(task.description);
-  const [taskStatusDdit, setTaskStatusEdit] = useState<String>(task.status);
+  const [taskTitleedit, setTaskTitleEdit] = useState<string>(task.title);
+  const [taskDescedit, setTaskDescEdit] = useState<string>(task.description);
+  const [taskStatusedit, setTaskStatusEdit] = useState<string>(task.status);
   const handleSubmitNewTaskEdit: FormEventHandler<HTMLFormElement> = async (
     e
   ) => {
     e.preventDefault();
     await EditTask({
       id: task.id,
-      title: taskTitleDdit,
-      description: taskDescDdit,
-      status: taskStatusDdit,
+      title: taskTitleedit,
+      description: taskDescedit,
+      status: taskStatusedit,
     });
 
     // setTaskTitleEdit("");
@@ -70,21 +71,21 @@ const Task: React.FC<TaskProps> = ({ task }) => {
             <h3 className="font-bold text-center">Edit Your TASK</h3>
             <div className="model-action mt-5">
               <input
-                value={taskTitleDdit}
+                value={taskTitleedit}
                 onChange={(e) => setTaskTitleEdit(e.target.value)}
                 type="text"
                 placeholder="Enter your Task here"
                 className="input input-bordered w-full mb-5 "
               />
               <input
-                value={taskDescDdit}
+                value={taskDescedit}
                 onChange={(e) => setTaskDescEdit(e.target.value)}
                 type="text"
                 placeholder="Enter your Description here"
                 className="input input-bordered w-full mb-5  "
               />
               <input
-                value={taskStatusDdit}
+                value={taskStatusedit}
                 onChange={(e) => setTaskStatusEdit(e.target.value)}
                 type="text"
                 placeholder="Enter your Status here"

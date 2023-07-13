@@ -19,7 +19,7 @@ const TaskList: React.FC<TaskListProps> = ({ tasks }) => {
         </thead>
         <tbody>
           {tasks.map((task) => (
-          <Task  task={task}/>
+          <Task key={task.id} task={task}/>
           ))}
         </tbody>
       </table>

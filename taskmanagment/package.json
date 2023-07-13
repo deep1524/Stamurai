@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "server": "json-server --watch Data/Task.json --port 3001"
+    "server": "json-server --watch Data/Task.json --port 8080"
   },
   "dependencies": {
     "@types/node": "20.4.2",

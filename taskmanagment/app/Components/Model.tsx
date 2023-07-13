@@ -9,9 +9,9 @@ interface ModelProps {
 
 const Model: React.FC<ModelProps> = ({ modelOpen, setModelOpen }) => {
   const router = useRouter();
-  const [newTitleValue, setnewTitleValue] = useState<String>("");
-  const [newDesValue, setnewDesValue] = useState<String>("");
-  const [newStatusValue, setnewStatusValue] = useState<String>("");
+  const [newTitleValue, setnewTitleValue] = useState<string>("");
+  const [newDesValue, setnewDesValue] = useState<string>("");
+  const [newStatusValue, setnewStatusValue] = useState<string>("");
   const handleSubmitNewTask: FormEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
     if (
