@@ -31,8 +31,9 @@ Frontend : Next JS, TypeScript, Tailwind CSS , daisyUI
 
   **Sample Page Images**
   ---
-  
-![Screenshot (1309)](https://github.com/deep1524/Stamurai/assets/105913793/5acf26d3-c677-4696-96e5-40e43569efda)
+  ![Screenshot (1310)](https://github.com/deep1524/Stamurai/assets/105913793/47d1007a-5ef0-46c0-b5de-07ce0bbc4ff8)
+
+
 
   
 
