@@ -13,7 +13,7 @@ For Server npm run server
 
 ## Demo
 
-https://crystalgoldshop.netlify.app
+
 
 ##  Tech-stack used
   
